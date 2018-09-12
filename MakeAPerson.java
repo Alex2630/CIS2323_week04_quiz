@@ -7,7 +7,7 @@ public class MakeAPerson{
 		getLastName();
 		getAge();
 		getSex();
-		showInfo;
+		showInfo();
 	}
 	
 }

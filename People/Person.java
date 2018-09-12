@@ -1,4 +1,5 @@
 import java.util.Scanner;
+package People;
 public class Person {
 	String fist, last, sex;
 	int age;
