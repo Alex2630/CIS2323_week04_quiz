@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Person {
 	String fist, last, sex;
 	int age;
