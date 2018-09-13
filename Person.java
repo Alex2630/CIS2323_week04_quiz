@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// package People;
+//package People;
 public class Person {
 	private String first, last, sex;
 	private int age;
@@ -13,7 +13,7 @@ public class Person {
 	public String getLastName( String last ){
 		//last = inputDevice.nextLine();
 		System.out.println("The last name is: " + last);
-		//return last;
+		return last;
 	}
 	public String getSex( String sex){
 		//sex = inputDevice.nextLine();

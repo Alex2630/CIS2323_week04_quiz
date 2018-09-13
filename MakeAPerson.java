@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// import People.*;
+//import People.*;
 public class MakeAPerson{
 	public static void main(String[] args){
 		Scanner inputDevice = new Scanner(System.in);
@@ -10,11 +10,10 @@ public class MakeAPerson{
 		myPerson.getFirstName(First);
 		Last = inputDevice.nextLine();
 		myPerson.getLastName(Last);
-		age = inputDevice.nextLine();
+		age = inputDevice.nextInt();
 		myPerson.getAge(age);
 		sex = inputDevice.nextLine();
 		myPerson.getSex(sex);
 		myPerson.showInfo();
 	}
-	
-}
+}	
