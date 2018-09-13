@@ -7,14 +7,14 @@ public class MakeAPerson{
 		int age;
 		Person myPerson= new Person();
 		First = inputDevice.nextLine();
-		getFirstName(First);
+		Person.getFirstName(First);
 		Last = inputDevice.nextLine();
-		getLastName(Last);
+		Person.getLastName(Last);
 		age = inputDevice.nextLine();
-		getAge(age);
+		Person.getAge(age);
 		sex = inputDevice.nextLine();
-		getSex(sex);
-		showInfo();
+		Person.getSex(sex);
+		Person.showInfo();
 	}
 	
 }
