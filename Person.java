@@ -1,7 +1,7 @@
 import java.util.Scanner;
 // package People;
 public class Person {
-	private String fist, last, sex;
+	private String first, last, sex;
 	private int age;
 	Scanner inputDevice = new Scanner(System.in);
 	
